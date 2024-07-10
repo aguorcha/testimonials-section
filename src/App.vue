@@ -3,10 +3,10 @@
 
 
 <template>
-  <section class="flex flex-col items-center pt-16 bg-light-grayish-blue pb-20 font-barlow">
+  <section class="flex flex-col items-center justify-center lg:max-h-screen mx-auto lg:justify-center lg:w-10/12 lg:grid lg:grid-cols-4 lg:gap-6 pt-16 lg:pt-14 pb-20 font-barlow">
 
-    <article class="relative bg-moderate-violet w-10/12 mb-6 p-6 text-white rounded-xl font-semibold">
-      <img class="absolute top-0 right-6 z-0" src="./assets/images/bg-pattern-quotation.svg" alt="Background image">
+    <article class="relative bg-moderate-violet w-11/12 lg:w-full lg:h-full lg:col-span-2 mb-6 lg:mb-0 p-6 text-white rounded-xl font-semibold">
+      <img class="absolute top-0 right-6 z-0 lg:right-20" src="./assets/images/bg-pattern-quotation.svg" alt="Background image">
       <div class="flex items-center relative z-10">
         <img class="w-8 h-8 border-2 rounded-full" src="./assets/images/image-daniel.jpg" alt="Daniel Clifford">
         <div class="ml-4 ">
@@ -20,7 +20,7 @@
       </div>
     </article>
 
-    <article class="relative bg-very-dark-grayish-blue w-10/12 mb-6 p-6 text-white rounded-xl font-semibold">
+    <article class="relative bg-very-dark-grayish-blue w-11/12 lg:w-full lg:h-full lg:col-start-3 lg:col-span-1 mb-6 lg:mb-0 p-6 text-white rounded-xl font-semibold">
       <div class="flex items-center relative z-10">
         <img class="w-8 h-8 border-2 rounded-full" src="./assets/images/image-jonathan.jpg" alt="Jonathan Walters">
         <div class="ml-4">
@@ -34,7 +34,7 @@
       </div>
     </article>
 
-    <article class="relative bg-white w-10/12 mb-6 p-6 text-very-dark-grayish-blue rounded-xl font-semibold">
+    <article class="relative bg-white w-11/12 lg:w-full lg:h-full lg:col-start-1 lg:col-span-1 mb-6 lg:mb-0 p-6 text-very-dark-grayish-blue rounded-xl font-semibold">
       <div class="flex items-center relative z-10">
         <img class="w-8 h-8 border-2 rounded-full" src="./assets/images/image-jeanette.jpg" alt="Jeanette Harmon">
         <div class="ml-4">
@@ -48,7 +48,7 @@
       </div>
     </article>
 
-    <article class="relative bg-very-drak-blackish-blue w-10/12 mb-6 p-6 text-white rounded-xl font-semibold">
+    <article class="relative bg-very-drak-blackish-blue w-11/12 lg:w-full lg:h-full lg:col-start-2 lg:col-span-2 mb-6 lg:mb-0 p-6 text-white rounded-xl font-semibold">
       <div class="flex items-center relative z-10">
         <img class="w-8 h-8 border-2 rounded-full" src="./assets/images/image-patrick.jpg" alt="Patrick Abrams">
         <div class="ml-4">
@@ -62,7 +62,7 @@
       </div>
     </article>
 
-    <article class="relative bg-white w-10/12 mb-6 p-6 text-very-dark-grayish-blue rounded-xl font-semibold">
+    <article class="relative bg-white w-11/12 lg:w-full lg:h-full lg:col-start-4 lg:row-start-1 lg:row-span-2 mb-6 lg:mb-0 p-6 text-very-dark-grayish-blue rounded-xl font-semibold">
       <div class="flex items-center relative z-10">
         <img class="w-8 h-8 border-2 rounded-full" src="./assets/images/image-kira.jpg" alt="Kira Whittle">
         <div class="ml-4">
@@ -79,8 +79,3 @@
   </section>
 </template>
 
-
-
-<style scoped>
-
-</style>
